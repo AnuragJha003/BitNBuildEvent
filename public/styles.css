@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav--container {
+  display: flex;
+  padding: 8px 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(111, 111, 115, 0.79);
+  background-color: #fff;
+}
+
+.nav--logo {
+  height: 60px;
+  margin-right: 15px;
+}
+
+.nav--text {
+  color: rgb(111, 111, 115);
+  font-size: 16px;
+}
+
+.green {
+  background-color: rgb(51, 165, 82, 0.8);
+  text-align: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(111, 111, 115, 0.79);
+}
+
+.details--content {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px 60px;
+}
+
+.details--text1 {
+  margin-left: 15px;
+}
+
+.details--flexbox {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.yellow {
+  margin-top: 0;
+  background-color: rgb(251, 188, 8, 0.6);
+  text-align: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(111, 111, 115, 0.79);
+}
+
+.timeline {
+  margin: 2em auto;
+  max-width: 34.15em;
+}
+
+.checkpoint {
+  max-width: 34em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+}
+
+.checkpoint--div {
+  border: 2px solid #888;
+  border-radius: 1em;
+  padding: 1.5em;
+  transition: 0.3s ease-in-out;
+}
+
+.checkpoint--div:hover {
+  background-color: rgb(251, 188, 8, 0.9);
+  transition: 0.3s ease-in-out;
+}
+
+.checkpoint--p {
+  line-height: 27px;
+}
+
+.checkpoint:nth-child(odd) {
+  border-left: 3px solid #888;
+  padding-left: 3em;
+  transform: translate(17em);
+}
+
+.checkpoint:nth-child(even) {
+  border-right: 3px solid #888;
+  padding-right: 3em;
+  transform: translate(-16.85em);
+}
+
+.checkpoint:nth-child(odd)::before,
+.checkpoint:nth-child(even)::before {
+  content: "";
+  background: #888;
+  width: 3em;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkpoint:nth-child(odd)::before {
+  left: 0;
+}
+
+.checkpoint:nth-child(even)::before {
+  right: 0;
+}
+
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before {
+  content: "";
+  background: #fff;
+  box-shadow: 0 0 0.5em #0d71fc;
+  width: 0.8em;
+  height: 0.8em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.checkpoint:nth-child(odd) div::before {
+  left: -0.5em;
+}
+
+.checkpoint:nth-child(even) div::before {
+  right: -0.5em;
+}
+
+@media screen and (max-width: 1150px) {
+  .timeline {
+    width: 80vw;
+  }
+
+  .timeline .checkpoint {
+    width: 100%;
+    transform: none;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+
+  .timeline .checkpoint::before {
+    width: 3px;
+    height: 4em;
+    top: -2em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .timeline .checkpoint div::before {
+    top: -0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.blue {
+  margin-top: 0;
+  background-color: rgb(66, 133, 244, 0.8);
+  text-align: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(111, 111, 115, 0.79);
+}
+
+.register--contents {
+  padding: 20px 60px;
+}
+
+.white-button {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: rgb(234, 67, 53, 0.8);
+  text-align: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(111, 111, 115, 0.79);
+}
+
+.problems--content {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.statement {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #888;
+  border-radius: 1em;
+  padding: 1.5em;
+  transition: 0.3s ease-in-out;
+}
+
+.statement:hover {
+  background-color: rgb(234, 67, 53);
+  transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .problems--content {
+    padding: 40px 60px;
+  }
+
+  .statement {
+    width: 30%;
+    margin-bottom: 0;
+  }
+}
