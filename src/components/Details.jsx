@@ -27,28 +27,30 @@ export default function Details() {
         Engineering.
         <br />
         <br />
-        <div className="details--flexbox">
-          <UilSchedule />
-          <p className="details--text1">Registration Deadline :</p>
-          <p className="details--text1">08 Feb 24, 11:59 PM IST</p>
-        </div>
-        <div className="details--flexbox">
-          <UilSchedule />
-          <p className="details--text1">Grand Finale :</p>
-          <p className="details--text1">24 Feb 24, 10:00 AM IST</p>
-        </div>
-        <div className="details--flexbox">
-          <UilMoneyBillStack />
-          <p className="details--text1">Registration Fee :</p>
-          <p className="details--text1">Rs.400 per team</p>
-        </div>
-        <div className="details--flexbox">
-          <UilUser />
-          <p className="details--text1">Team Size :</p>
-          <p className="details--text1">
-            2 to 4 members (Inter-College teams allowed. Individuals must be
-            from the same state.)
-          </p>
+        <div className="details--info">
+          <div className="details--flexbox">
+            <UilSchedule size={50} />
+            <h3 className="details--text1">Registration Deadline :</h3>
+            <p className="details--text1">08 Feb 24, 11:59 PM IST</p>
+          </div>
+          <div className="details--flexbox">
+            <UilSchedule size={50} />
+            <h3 className="details--text1">Grand Finale :</h3>
+            <p className="details--text1">24-25 Feb 24</p>
+          </div>
+          <div className="details--flexbox">
+            <UilMoneyBillStack size={50} />
+            <h3 className="details--text1">Registration Fee :</h3>
+            <p className="details--text1">Rs.400 per team</p>
+          </div>
+          <div className="details--flexbox">
+            <UilUser size={50} />
+            <h3 className="details--text1">Team Size :</h3>
+            <p className="details--text1">
+              2 to 4 members (Inter-College teams allowed. Individuals must be
+              from the same state.)
+            </p>
+          </div>
         </div>
       </div>
     </div>
