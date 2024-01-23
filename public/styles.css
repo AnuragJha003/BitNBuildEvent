@@ -25,7 +25,7 @@ body {
 }
 
 .green {
-  background-color: rgb(51, 165, 82, 0.8);
+  background-color: rgb(51, 165, 82, 0.6);
   text-align: center;
   box-shadow: 0px 2.98256px 7.4564px rgba(111, 111, 115, 0.79);
 }
@@ -41,15 +41,41 @@ body {
   margin-left: 15px;
 }
 
-.details--flexbox {
+.details--info {
   display: flex;
-  align-items: center;
-  font-size: 18px;
+  justify-content: space-between;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.details--flexbox {
+  width: 100%; 
+  margin-bottom: 20px;
+  border: 2px solid #888;
+  border-radius: 1em;
+  padding: 1.5em;
+  transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .details--info {
+    padding: 40px 60px; 
+  }
+
+  .details--flexbox {
+    width: 24%;
+    margin-bottom: 0; 
+  }
+}
+
+.details--flexbox:hover {
+  background-color: rgb(51, 165, 82, 0.8);
+  transition: 0.3s ease-in-out;
 }
 
 .yellow {
   margin-top: 0;
-  background-color: rgb(251, 188, 8, 0.6);
+  background-color: rgb(251, 188, 8, 0.5);
   text-align: center;
   box-shadow: 0px 2.98256px 7.4564px rgba(111, 111, 115, 0.79);
 }
@@ -74,7 +100,7 @@ body {
 }
 
 .checkpoint--div:hover {
-  background-color: rgb(251, 188, 8, 0.9);
+  background-color: rgb(251, 188, 8, 0.6);
   transition: 0.3s ease-in-out;
 }
 
@@ -187,7 +213,7 @@ body {
 }
 
 .red {
-  background-color: rgb(234, 67, 53, 0.8);
+  background-color: rgb(234, 67, 53, 0.6);
   text-align: center;
   box-shadow: 0px 2.98256px 7.4564px rgba(111, 111, 115, 0.79);
 }
@@ -209,7 +235,7 @@ body {
 }
 
 .statement:hover {
-  background-color: rgb(234, 67, 53);
+  background-color: rgb(234, 67, 53, 0.7);
   transition: 0.3s ease-in-out;
 }
 
