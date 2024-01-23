@@ -5,6 +5,7 @@ import Timeline from "./components/Timeline";
 import Register from "./components/Register";
 import Submission from "./components/Submission";
 import PrblmStatements from "./components/PrblmStatements";
+import Leaderboard from "./components/LeaderBoard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <PrblmStatements />
         <Register />
         <Submission />
+        {/*<Leaderboard /> */}
       </div>
     </div>
   );

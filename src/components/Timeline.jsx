@@ -8,46 +8,40 @@ export default function Timeline() {
         <div className="checkpoint">
           <div className="checkpoint--div">
             <h2 className="checkpoint--h2">
-              Lorem ipsum dolor sit amet consectetur.
+              Registrations Open!!
             </h2>
             <p className="checkpoint--p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Secure your spot now by completing the registration process before January 31st
             </p>
           </div>
         </div>
         <div className="checkpoint">
           <div className="checkpoint--div">
             <h2 className="checkpoint--h2">
-              Lorem ipsum dolor sit amet consectetur.
+              1st Round of State Level Hackathon Ideation Submissions [Till 2nd Feb 8pm]
             </h2>
             <p className="checkpoint--p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur sapiente itaque animi rerum temporibus dignissimos
-              alias ipsam, voluptas repudiandae sequi?
+            Kindly submit your comprehensive ideation in PowerPoint format and share a GitHub repository showcasing the basic features, accompanied by a brief video highlighting the key functionalities.
             </p>
           </div>
         </div>
         <div className="checkpoint">
           <div className="checkpoint--div">
             <h2 className="checkpoint--h2">
-              Lorem ipsum dolor sit amet consectetur.
+            2nd Round of State Level Hackathon Ideation Submissions [On the 4th of February,2024]
             </h2>
             <p className="checkpoint--p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur sapiente itaque animi rerum temporibus dignissimos
-              alias ipsam, voluptas repudiandae sequi?
+            Engage in a virtual interview with our esteemed panel of judges, where they will inquire about your project and its implemented features, assigning scores based on your presentation and responses
             </p>
           </div>
         </div>
         <div className="checkpoint">
           <div className="checkpoint--div">
             <h2 className="checkpoint--h2">
-              Lorem ipsum dolor sit amet consectetur.
+              Finals in Mumbai !!
             </h2>
             <p className="checkpoint--p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur sapiente itaque animi rerum temporibus dignissimos
-              alias ipsam, voluptas repudiandae sequi?
+            Participate in an exclusive 2-day onsite hackathon in Mumbai with sponsored accommodation, meals, and travel, and stand a chance to win enticing cash prizes
             </p>
           </div>
         </div>
