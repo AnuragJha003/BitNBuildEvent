@@ -17,7 +17,7 @@ function App() {
         <PrblmStatements />
         <Register />
         <Submission />
-        {/*<Leaderboard /> */}
+        {/*<Leaderboard /> */} 
       </div>
     </div>
   );

@@ -363,3 +363,87 @@ body {
   background-color: #ffffff;
 }
 
+
+@media screen and (max-width: 768px) {
+  .details-container {
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .details-content {
+    flex-direction: column;
+  }
+
+  .details-info,
+  .event-poster {
+    flex: 1;
+    width: 100%;
+  }
+
+  .details-flexbox {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .details--info {
+    padding: 20px;
+  }
+
+  .details--flexbox {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .timeline,
+  .checkpoint {
+    max-width: 100%;
+  }
+
+  .checkpoint {
+    transform: none;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+
+  .checkpoint::before {
+    width: 3px;
+    height: 4em;
+    top: -2em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .checkpoint div::before {
+    top: -0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .bubble-container {
+    height: auto;
+  }
+
+  .problems--content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 400px; /* Adjust the maximum height as needed */
+  }
+
+  .statement {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .leaderboard-container {
+    margin: 10px;
+  }
+
+  .leaderboard-table {
+    width: 100%;
+  }
+}
+
